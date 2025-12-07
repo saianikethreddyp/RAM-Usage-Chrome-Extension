@@ -9,11 +9,15 @@ A lightweight, developer-friendly Chrome extension that provides real-time insig
 ## 🚀 Features
 
 -   **Real-time Memory Tracking**: Monitors `performance.memory.usedJSHeapSize` to show accurate JavaScript memory consumption.
--   **Privacy at a Glance**: Instantly visible icons for active permissions (📷 Camera, 🎤 Mic, 📍 Location, 🔔 Notifications).
+-   **Performance Statistics**:
+    -   **FPS Counter**: Real-time Frames Per Second monitoring to spot lag.
+    -   **DOM Node Count**: Tracks page complexity by counting total HTML elements.
+-   **Visual History**: Click to expand a **Sparkline Graph** showing memory usage trends over time.
+-   **Privacy at a Glance**: Instantly visible icons for active permissions (📷 Camera, 🎤 Mic, 📍 Location).
 -   **Smart Visuals**:
-    -   **Glassmorphism UI**: Modern, translucent design that blends into any website.
+    -   **Draggable Interface**: Move the overlay anywhere on the screen—it remembers your spot!
+    -   **Glassmorphism UI**: Premium, translucent design that blends into any website.
     -   **Dynamic Color Coding**: Green/Orange/Red indicators based on memory load.
-    -   **Unobtrusive**: Floats in the corner and supports click-through logic.
 
 ## 🛠 Installation
 
@@ -35,9 +39,10 @@ Since this extension is in active development, it is installed via **Developer M
 
 1.  Open any website (e.g., YouTube, Google Maps).
 2.  Look for the overlay in the **bottom-right corner**.
-3.  **Memory Interpretation**:
-    -   The value displayed is the **JS Heap Size**. This represents the memory used by the page's JavaScript objects and code.
-    -   *Note: This differs from the "Total Memory" in Task Manager, which includes browser engine overhead, GPU textures, and video buffers.*
+3.  **Interaction**:
+    -   **Drag**: Click and hold the header (⚡ icon area) to move the overlay.
+    -   **Expand**: Click the header once to toggle the **Memory Graph** and detailed stats (DOM count, Peak Memory).
+    -   **Observe**: Watch the FPS counter to gauge page smoothness.
 4.  **Permissions**:
     -   If an icon (e.g., 📷) appears, the site has *active access* to that device feature. Hover over the icon for a label.
 
