@@ -21,7 +21,7 @@ Since this extension is in active development, it is installed via **Developer M
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/ram-permissions-monitor.git
+    git clone https://github.com/saianikethreddyp/RAM-Usage-Chrome-Extension
     ```
 2.  **Open Chrome Extensions**
     -   Navigate to `chrome://extensions` in your address bar.
