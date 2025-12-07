@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "RAM Usage Monitor",
+    "version": "1.0",
+    "description": "Displays the approximate JS Heap memory usage on every page.",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
